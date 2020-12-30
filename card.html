@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020년을 보내며</title>
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+    <meta property="og:image" content="https://www.christmastreeassociation.org/wp-content/uploads/2016/06/multiple-christmas-trees-in-one-household-800x400.jpg">
+    <meta property="og:title" content="길동이의 카드">
+    <meta property="og:description" content="2020을 추억하며">
+    <link rel="shortcut icon" href="https://freepngimg.com/download/christmas/26196-6-christmas-stocking.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+
+
+  <style>
+
+  * {font-family: 'Poor Story', cursive;
+
+  }
+    @media screen and (max-width: 760px) {
+    .messagebox{
+      width: 300px;
+      padding: 20px;
+
+    }
+  }
+    body  {
+      background-color: #9b070f;
+    }
+
+    .envelope {
+      width: 200px;
+      height: 200px;
+
+      background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+
+      background-size: cover;
+      background-position: center;
+
+      margin: 200px auto 0px auto;
+      cursor: pointer;
+    }
+
+    .text {
+      color: white;
+      text-align: center;
+      width: 500px;
+      margin: auto;
+    }
+
+    .letter-open {
+      display: none;
+    }
+
+    .letter-image {
+      background-color: white;
+
+      width: 200px;
+      height: 200px;
+
+      background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/Webp.net-gifmaker+(2).gif');
+      background-size: cover;
+      background-position: center;
+
+      margin: 100px auto 0px auto;
+
+      border-radius: 100px;
+      border: 5px solid white;
+      box-shadow: 0px 0px 10px 0px white;
+
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .messagebox {
+      background-color: ivory;
+
+      width: 500px;
+      margin: auto;
+      padding: 30px;
+
+      color: brown;
+      font-size: 20px;
+      line-height:30px;
+
+      box-shadow: 0px 0px 10px 0px white;
+
+      }
+
+      .from   {
+      text-align: right;
+      margin-bottom: 0;
+      }
+  </style>
+
+  <script>
+    function open_letter() {
+      document.getElementsByClassName("letter-close")[0].style.display = 'none'
+      document.getElementsByClassName("letter-open")[0].style.display = 'block'
+    }
+    function go_rtan() {
+      alert('고양이 보고 가세요')
+      window.location.href='https://www.youtube.com/watch?v=VqkUcD4VngU&t=64s&ab_channel=hahaha'
+    }
+  </script>
+  </head>
+
+  <body>
+  <div class="letter-close">
+    <div class="envelope" onclick="open_letter()"></div>
+    <h2 class="text"> 봉투를 열어봐 </h2>
+  </div>
+
+  <div class="letter-open">
+  <div class='letter-image' onclick="go_rtan()"></div>
+  <h1>행운의 편지</h1>
+  <div class="messagebox">
+    이 편지는 영국에서 최초로 시작되어 일년에 한 바퀴 돌면서<br />
+    받는 사람에게 행운을 주었고 지금은 당신에게로 옮겨진 이  <br />
+    편지는...... 농담이고 2020년 수고했다 얘들아  <br />
+    이거 깃허브에 올릴 건데 이왕 만든거 편지로 쓰려고 <br />
+    2021년에는 우리 모두 돈 많이 벌어 부자 되자! <br />
+    <p class="from">2020년 12월 28일 서하가 </p>
+  </div>
+  </div>
+
+  </body>
+
+</html>
