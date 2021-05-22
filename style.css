@@ -1,0 +1,13 @@
+td{
+  font-size: 10pt;
+  color:blue;
+  font-family: monospace;
+  text-align:center;
+}
+
+.highlight {
+  font-size: 3em;
+  text-align: center;
+  color:purple;
+}
+ 
